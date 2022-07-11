@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Chef
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="top"></div>
 
-## Available Scripts
+[Chef](https://transcendent-belekoy-56eeaf.netlify.app) is a one-stop solution for all your kitchen problems.\
+<br />
+![Screenshot (3)](https://user-images.githubusercontent.com/71555824/178325057-2fba7cfd-43d5-4354-88c0-f3525181ac88.png)
 
-In the project directory, you can run:
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About the Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here, you can 
+- Search for a recipe of your choice<br /><br />
+![Screenshot (4)](https://user-images.githubusercontent.com/71555824/178325370-83c7be68-9cc6-4bf5-97d8-55e2558f9372.png)
+- Choose among various international cuisines<br /><br />
+![Screenshot (5)](https://user-images.githubusercontent.com/71555824/178325593-9563e01c-a88c-416b-9adf-7b21e80b2858.png)
+- Browse through trending recipes
+You can also filter your searches based on the diet of your choice.\
+For each recipe, you can get detailed information about its ingredients, cooking instructions and nutritional value.<br /><br />
+![Screenshot (9)](https://user-images.githubusercontent.com/71555824/178326117-c17c9e5e-cfb3-451f-a812-569d079c45e0.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [![React][React.js]][React-url]
+* ![Spoonacular API][Spoonacular-img]
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You need to install Node Package Manager(npm).
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Get a free API Key at [Spoonacular API]([https://example.com](https://spoonacular.com/food-api))
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `.env`
+   ```js
+   REACT_APP_API_KEY = 'Your API KEY'
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Spoonacular-url]: https://spoonacular.com/food-api
+[Spoonacular-img]: https://user-images.githubusercontent.com/71555824/178329201-8b821b8e-83a3-4167-ab86-a81fb8d18667.png

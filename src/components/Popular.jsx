@@ -27,7 +27,14 @@ function Popular() {
       <PopularWrapper>
         <h3>Popular Recipes This Week</h3>
 
-        <Splide>
+        <Splide
+          options={{
+            perPage: 3,
+            pagination: false,
+            drag: "free",
+            gap: "5rem",
+          }}
+        >
           {popular.map((recipe) => {
             return (
               <SplideSlide key={recipe.id}>
